@@ -12,8 +12,7 @@ button.addEventListener('click',(e)=>{
     }
     else if(e.target.innerHTML=='Del'){
         string=""
-        document.querySelector('input').innerText.slice(0,-1);
-        string.remove();
+     document.querySelector('input').value=string;
     }
     else{
         console.log(e.target)
