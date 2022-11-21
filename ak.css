@@ -2,8 +2,8 @@ html,body{
     height:100%;
     width:100%;
     background-color:rgb(178, 163, 192);
-    height: 100px;
-    width: 150px;
+    height: 1000px;
+    width: 1500px;
 }
 .button{
     font-size: 24px;
